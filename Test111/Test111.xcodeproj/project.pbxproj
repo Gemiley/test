@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48CDB2551D9E46480098CDA7 /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CDB2541D9E46480098CDA7 /* AlarmTableViewController.swift */; };
 		48EB41C41D9BC3DE00937E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB41C31D9BC3DE00937E25 /* AppDelegate.swift */; };
 		48EB41C61D9BC3DE00937E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB41C51D9BC3DE00937E25 /* ViewController.swift */; };
 		48EB41CB1D9BC3DE00937E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EB41CA1D9BC3DE00937E25 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48CDB2541D9E46480098CDA7 /* AlarmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
 		48EB41C01D9BC3DE00937E25 /* Test111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test111.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EB41C31D9BC3DE00937E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48EB41C51D9BC3DE00937E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };

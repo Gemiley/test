@@ -45,7 +45,7 @@
         <!--Root View Controller-->
         <scene sceneID="aVR-0i-ivK">
             <objects>
-                <tableViewController id="lWx-dS-kIF" customClass="AlarmMasterViewController" customModule="Test111" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="lWx-dS-kIF" customClass="AlarmTableViewController" customModule="Test111" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="125" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hrl-2L-wbP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,7 +156,7 @@
         <!--Root View Controller-->
         <scene sceneID="IbF-pd-xdK">
             <objects>
-                <tableViewController id="LCq-CV-jDo" customClass="AlarmMasterViewController" customModule="Test111" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="LCq-CV-jDo" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="OqG-fv-Hz2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
