@@ -29,6 +29,7 @@
         <!--Navigation Controller-->
         <scene sceneID="m7l-3v-bjJ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Nk-eD-jfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="RlC-fT-4M5" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UNR-3G-V8j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -38,14 +39,13 @@
                         <segue destination="V4T-qG-e7I" kind="relationship" relationship="rootViewController" id="08C-Eo-bFP"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Nk-eD-jfB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-597" y="1113"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="aVR-0i-ivK">
             <objects>
-                <tableViewController id="lWx-dS-kIF" customClass="AlarmMasterViewController" customModule="Test111" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="lWx-dS-kIF" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="125" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hrl-2L-wbP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,7 +156,7 @@
         <!--Root View Controller-->
         <scene sceneID="IbF-pd-xdK">
             <objects>
-                <tableViewController id="LCq-CV-jDo" customClass="AlarmMasterViewController" customModule="Test111" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="LCq-CV-jDo" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="OqG-fv-Hz2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -218,6 +218,7 @@
         <!--なでなで-->
         <scene sceneID="iRQ-eG-rZt">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nnu-6f-gyP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="V4T-qG-e7I" customClass="NadeViewController" customModule="Test111" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gl9-Wt-FSj"/>
@@ -242,9 +243,8 @@
                         <outlet property="imageView" destination="oJa-uE-m6J" id="VUM-cP-leD"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nnu-6f-gyP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="285.60000000000002" y="1111.3943028485758"/>
+            <point key="canvasLocation" x="286" y="1112"/>
         </scene>
         <!--おやすみ-->
         <scene sceneID="qkF-yD-HaB">
